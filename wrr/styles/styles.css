@@ -2,3 +2,72 @@
     max-width: 1600px;
     margin: 0 auto;
 }
+nav a {
+    text-align: center;
+    color: #fcfbfb;
+    text-decoration: none;
+}
+nav a:hover{
+    color: black;
+}
+#hero-msg h1 {
+    text-align: center;
+}
+#hero-msg h4 {
+    text-align: center;
+}
+.button-box {
+    text-align: center;
+}
+main section {
+    text-align: center;
+}
+#background {
+    height: 725px;
+}
+body {
+    background-color: #ffffff;
+}
+header {
+    background-color: #1d446c;
+}
+nav a:hover {
+    background-color: #8bd1df;
+}
+.book {
+    background-color: #f5dc71; 
+}
+.join {
+    background-color: #f5dc71;
+}
+.book:hover {
+    background-color: #f5dc71;
+}
+.join:hover {
+    background-color: #f5dc71;
+}
+#background {
+    background-color: #f5dc71;
+}
+.msg {
+    background-color: #f5dc71;
+}
+footer {
+    background-color: #1d446c;
+    color: #ffffff;
+}
+footer a {
+    color: #ffffff;
+}
+footer h3 a:hover {
+    text-decoration: underline;
+}
+.logo{
+    width: 80px;
+}
+.icon {
+    width: 80px;
+}
+#hero-img {
+    width: 100%
+}
