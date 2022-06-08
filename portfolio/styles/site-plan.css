@@ -15,10 +15,10 @@ Fonts are separated by a | */
 
   /* these colors below should be chosen from among your palette colors above */
   --headline-color-on-white: #194280;  /* headlines on a white background */ 
-  --headline-color-on-color: #194280; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #396E94; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: #242429; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #E6ECD4;
+  --headline-color-on-color: #E6ECD4; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #242429; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #194280;
   --nav-link-color: #CC4E45;
   --nav-background-color: #E6ECD4;
   --nav-hover-link-color: #E6ECD4;
