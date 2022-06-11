@@ -172,3 +172,8 @@ nav a:hover {
   border-top: 1px solid;
   border-right: 1px solid;
 }
+
+.image01 {
+  height: 500px;
+  margin: 0 auto;
+}
