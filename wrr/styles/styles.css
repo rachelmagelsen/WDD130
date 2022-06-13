@@ -171,6 +171,16 @@ main section img {
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #1d446c;
 }
+.faq-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.q-left {
+    grid-column: 1;
+}
+.q-right {
+    grid-column: 2;
+}
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
