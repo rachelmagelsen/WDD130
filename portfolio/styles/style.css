@@ -2,6 +2,57 @@
     max-width: 1600px;
     margin: 0 auto;
 }
+html {
+    background-color: #2e3d5e;
+}
 .logo{
     width: 80px;
+    align-items: center;
+}
+.home-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+header {
+    background-color: #E6ECD4;
+    display: grid;
+    grid-template-columns: 150px auto;
+    font-family: Trebuchet, serif;
+    font-size: 25px;
+    padding: 35px;
+}
+nav a {
+    text-align: center;
+    color: #CC4E45;
+    text-decoration: none;
+    padding: 35px;
+}
+nav a:hover {
+    background-color: #194280;
+    color: #E6ECD4;
+}
+#hero {
+    font-family: Trebuchet, serif;
+    color: white
+}
+p {
+    font-family: Helvetica, sans-serif;
+    color: white
+}
+footer {
+    background-color: #E6ECD4;
+    color: #194280;
+    font-family: Trebuchet, serif;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+footer h3 a:hover {
+    text-decoration: underline;
 }
