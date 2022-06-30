@@ -6,8 +6,13 @@ html {
     background-color: #2e3d5e;
 }
 .logo{
-    width: 80px;
+    width: 50px;
     align-items: center;
+}
+#logolink {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
 }
 .home-grid {
     display: grid;
@@ -19,13 +24,13 @@ header {
     grid-template-columns: 150px auto;
     font-family: Trebuchet, serif;
     font-size: 25px;
-    padding: 35px;
+    padding: 25px;
 }
 nav a {
     text-align: center;
     color: #CC4E45;
     text-decoration: none;
-    padding: 35px;
+    padding: 25px;
 }
 nav a:hover {
     background-color: #194280;
@@ -33,7 +38,9 @@ nav a:hover {
 }
 #hero {
     font-family: Trebuchet, serif;
-    color: white
+    color: white;
+    display: grid;
+    grid-column: 2/9;
 }
 p {
     font-family: Helvetica, sans-serif;
