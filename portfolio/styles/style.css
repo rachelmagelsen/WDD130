@@ -20,7 +20,7 @@ html {
 }
 header {
     background-color: #E6ECD4;
-    grid-template-columns: 150px auto;
+    grid-template-columns: 30px auto;
     font-family: Trebuchet, serif;
     font-size: 25px;
     padding: 25px;
@@ -33,7 +33,7 @@ nav a {
     text-align: center;
     color: #CC4E45;
     text-decoration: none;
-    padding: 35px;
+    padding: 25px;
 }
 nav a:hover {
     background-color: #194280;
@@ -68,7 +68,7 @@ footer a {
     color: #ffffff;
     text-decoration: none;
 }
-footer h3 a:hover {
+footer a:hover {
     text-decoration: underline;
 }
 .card1 {
