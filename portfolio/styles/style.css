@@ -36,11 +36,18 @@ nav a:hover {
     background-color: #194280;
     color: #E6ECD4;
 }
-#hero {
+#intro {
     font-family: Trebuchet, serif;
     color: white;
     display: grid;
     grid-column: 2/9;
+}
+#hero-img {
+    width: 100%;
+    height: 100%;
+    max-width: 1920px;
+    margin: 0;
+    padding: 0;
 }
 p {
     font-family: Helvetica, sans-serif;
@@ -62,4 +69,11 @@ footer a {
 }
 footer h3 a:hover {
     text-decoration: underline;
+}
+.card1 {
+    display: grid;
+    grid-template-columns: 1/1;
+}
+.card2 {
+    display: grid;
 }
