@@ -11,7 +11,7 @@ html {
 }
 .logo{
     width: 50px;
-    align-items: center;
+    float: right;
 }
 #logolink {
     padding-top: 5px;
@@ -24,10 +24,7 @@ header {
     font-family: Trebuchet, serif;
     font-size: 25px;
     padding: 25px;
-}
-nav {
-    display: flex;
-    justify-content: space-around;
+    margin: 0;
 }
 nav a {
     text-align: center;
@@ -41,8 +38,9 @@ nav a:hover {
 }
 #intro {
     font-family: Trebuchet, serif;
+    position: relative;
+    text-align: center;
     color: white;
-    grid-column: 2/9;
 }
 #hero-img {
     height: 100%;
@@ -50,9 +48,36 @@ nav a:hover {
     margin: 0;
     padding: 0;
 }
+#hero-msg {
+    position: absolute;
+    text-align: center;
+    top: 55%;
+    color: white;
+    background-color: #CC4E45;
+    padding: 25px;
+    padding-left: 100px;
+    padding-right: 70px;
+}
+#hero-msg, h1 {
+    font-size: 30px;
+}
+#hero-msg, h2 {
+    font-size: 15px;
+}
 p {
     font-family: Helvetica, sans-serif;
     color: white
+}
+.intro {
+    grid-column: 5/10;
+}
+.card1 {
+    width: 500px;
+    grid-column: 3/10;
+}
+.card2 {
+    height: 500px;
+    grid-column: 3/7;
 }
 footer {
     background-color: #E6ECD4;
@@ -65,15 +90,16 @@ footer {
     align-items: center;
 }
 footer a {
-    color: #ffffff;
+    color: #CC4E45;
     text-decoration: none;
 }
 footer a:hover {
     text-decoration: underline;
 }
-.card1 {
-    grid-column: 3/7;
-}
-.card2 {
+.footer-contact {
     display: grid;
+
+}
+.socials {
+    width: 30px;
 }
