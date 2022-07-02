@@ -1,13 +1,14 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
 #content {
     max-width: 1600px;
     margin: 0 auto;
 }
 html {
     background-color: #2e3d5e;
-}
-.home-grid {
-    display: grid;
-    grid-template-columns: repeat(10, 1fr);
 }
 .logo{
     width: 50px;
@@ -64,27 +65,47 @@ nav a:hover {
 #hero-msg, h2 {
     font-size: 15px;
 }
+.home-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
 p {
     font-family: Helvetica, sans-serif;
     color: white
 }
+.hands {
+    grid-column: 2/5;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
 .intro {
-    grid-column: 5/10;
+    grid-column: 6/9;
+    padding-top: 150px;
+    padding-bottom: 50px;
+    padding-left: 15px;
 }
 .card1 {
-    width: 500px;
-    grid-column: 3/10;
+    grid-column: 4/8;
+    max-width: 100%;
+    padding: 50px;
 }
-.card2 {
-    height: 500px;
-    grid-column: 3/7;
+.button {
+    font-family: Trebuchet, serif;
+    height: 40px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    background-color: #CC4E45;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    grid-column: 5/7;
 }
 footer {
     background-color: #E6ECD4;
     color: #194280;
     font-family: Trebuchet, serif;
     padding: 25px 50px;
-    margin-top: 200px;
+    margin-top: 100px;
     display: flex;
     justify-content: space-around;
     align-items: center;
