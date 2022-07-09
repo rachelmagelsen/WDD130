@@ -12,7 +12,8 @@ html {
 }
 .logo{
     width: 50px;
-    float: right;
+    float: left;
+    margin-right: 50px;
 }
 #logolink {
     padding-top: 5px;
@@ -24,8 +25,9 @@ header {
     grid-template-columns: 30px auto;
     font-family: Trebuchet, serif;
     font-size: 25px;
-    padding: 25px;
-    margin: 0;
+    padding: 25px 50px;
+    display: flex;
+    align-items: center;
 }
 nav a {
     text-align: center;
@@ -98,7 +100,40 @@ p {
     text-decoration: none;
     color: white;
     text-align: center;
-    grid-column: 5/7;
+    grid-column: 5/6;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    position: relative;
+}
+.container img {
+    width: 100%;
+    height: auto;
+  }
+.container .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #194280;
+    color: white;
+    font-size: 20px;
+    padding: 12px 24px;
+    margin-left: 10%;
+    text-decoration: none;
+}
+.container p {
+    padding-top: 100px;
+    grid-column: 2/6;
+    padding-right: 50px;
+}
+.img-left {
+    grid-column: 2/6;
+    padding-top: 50px;
+}
+.img-right {
+    grid-column: 6/10;
+    padding-top: 50px;
 }
 footer {
     background-color: #E6ECD4;
