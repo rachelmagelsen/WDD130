@@ -100,7 +100,7 @@ p {
     text-decoration: none;
     color: white;
     text-align: center;
-    grid-column: 5/6;
+    grid-column: 5/7;
 }
 .container {
     display: grid;
