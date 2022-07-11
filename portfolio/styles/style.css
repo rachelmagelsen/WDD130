@@ -107,10 +107,6 @@ p {
     grid-template-columns: repeat(10, 1fr);
     position: relative;
 }
-.container img {
-    width: 100%;
-    height: auto;
-  }
 .container .btn {
     position: absolute;
     top: 50%;
@@ -119,7 +115,7 @@ p {
     color: white;
     font-size: 20px;
     padding: 12px 24px;
-    margin-left: 10%;
+    margin-left: 7%;
     text-decoration: none;
 }
 .container p {
@@ -134,6 +130,30 @@ p {
 .img-right {
     grid-column: 6/10;
     padding-top: 50px;
+}
+.page2p {
+    grid-column: 2/10;
+    padding-top: 100px;
+}
+.img-left2 {
+    grid-column: 2/6;
+    padding-top: 50px;
+    height: 100%;
+    width: 100%;
+}
+.img-right2 {
+    grid-column: 6/10;
+    padding-top: 50px;
+    height: 100%;
+    width: 100%;
+}
+.t-left {
+    grid-column: 3/5;
+    margin-top: -400px;
+}
+.t-right {
+    grid-column: 7/9;
+    padding-top: 300px;
 }
 footer {
     background-color: #E6ECD4;
